@@ -44,6 +44,19 @@ html{
     border-right: 1px solid white;
 }
 
+.s-half {
+    margin-top: 10px;
+}
+
+.s-half [class *="col"] {
+    height: 40px;
+}
+
+.nested [class *="col"] {
+    height: 40px;
+}
+
+
 
 
 .col-1 {
