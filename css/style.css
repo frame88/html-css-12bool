@@ -57,8 +57,47 @@ html{
 }
 
 
+.border-l{
+    border-left: 1px solid white;
+}
+
+.half{
+    height: 50%;
+}
+
+.align-self-center{
+    align-self: center;
+}
+
+.border-b{
+    border-bottom: 1px solid white;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.align-self-bottom{
+    align-self: flex-end;
+}
+
+[class *="row special"] {
+    padding: 8px;
+    height: auto;
+    text-align: center;
+}
 
 
+
+/*      SCHEMA COL      */
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -110,7 +149,6 @@ html{
 }
 
 /*      OFFSET      */
-
 .col-1-offset {
     margin-left: calc((100% / 12) * 1);
 }
