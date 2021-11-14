@@ -97,6 +97,34 @@ html{
 
 
 
+
+.double{
+    height: 80px;
+}
+
+
+
+
+
+
+.space-ar{
+    justify-content: space-around;
+}
+
+.space-betwe{
+    justify-content: space-between;
+}
+
+
+[class *="col"] {
+    flex: 0 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+
 /*      SCHEMA COL      */
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
